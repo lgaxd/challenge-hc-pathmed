@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>HC Telemedicina - Etapa 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles-etapas/styles-etapa02.css" />
+    <link rel="stylesheet" href="/styles/styles-dropdown-sidebar.css" />
+</head>
+
+<body>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" id="btn-close">✕</button>
+        <ul>
+            <li><a href="/pages/abas/notificacoes.html">Notificações</a></li>
+            <li><a href="/pages/dashboard.html">Dashboard</a></li>
+            <li><a href="/pages/abas/contato.html">Contato</a></li>
+            <li><a href="/pages/abas/faq.html">FAQ</a></li>
+            <li><a href="/pages/abas/devs.html">Desenvolvedores</a></li>
+        </ul>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <header>
+        <button class="menu-btn" id="btn-menu">&#9776;</button>
+
+        <div class="profile-container">
+            <button class="profile-btn" id="btn-profile">
+                <img src="/images/utilidades/icone-usuario.png" alt="Ícone de Usuário" />
+            </button>
+            <ul class="profile-dropdown" id="dropdown">
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Etapa 2</h1>
+        <img src="/images/imagens-etapas/etapa2.png" alt="Habilite seu microfone" class="step-img" />
+        <div class="step-header">Quando solicitado, habilite seu microfone.</div>
+        <div class="step-text">
+            Permita o uso de microfone no seu navegador ou app clicando em “Permitir” quando solicitado. Isso garante
+            que o médico possa ouvi-lo claramente.
+        </div>
+
+        <div class="nav-dots">
+            <div class="dot"></div>
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <div class="btn-group">
+            <button class="btn-prev" id="btn-prev">◀ Etapa 1</button>
+            <button class="btn-next" id="btn-next">Etapa 3 ▶</button>
+        </div>
+    </main>
+
+    <script src="/scripts/scripts-etapas/script-etapa2.js"></script>
+    <script src="/scripts/script-dropdown.js"></script>
+    <script src="/scripts/script-sidebar.js"></script>
+    <script src="/scripts/script-watson.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    background: #f5f7fa;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+}
+
+.menu-btn,
+.profile-btn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #0071bc;
+    display: flex;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    margin-top: .5rem;
+}
+
+h1.page-title {
+    font-size: 1.4rem;
+    color: #0071bc;
+    margin-bottom: 1rem;
+}
+
+.section-label {
+    font-size: 1rem;
+    color: #009688;
+    margin: 1rem 0 0.5rem;
+}
+
+.notif-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: .75rem 1rem;
+    margin-bottom: .75rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notif-card p {
+    margin: 0.25rem 0;
+    color: #444;
+    font-size: .95rem;
+}
+
+.notif-time {
+    font-size: .85rem;
+    color: #999;
+}

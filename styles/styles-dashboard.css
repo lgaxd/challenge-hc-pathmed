@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Poppins';
+    background: #f5f7fa;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-btn,
+.profile-btn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #0071bc;
+    display: flex;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+.greeting {
+    font-size: 1rem;
+    color: #666;
+}
+
+.greeting b {
+    color: #0071bc;
+}
+
+h2.section-title {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.2rem;
+    color: #0071bc;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card p {
+    margin: 0.25rem 0;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.card .arrow {
+    font-size: 1.2rem;
+    color: #0071bc;
+}
+
+.list-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.list-card p {
+    margin: 0.25rem 0;
+    color: #444;
+    font-size: 0.9rem;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}

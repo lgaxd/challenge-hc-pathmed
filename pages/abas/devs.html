@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>HC Telemedicina - Desenvolvedores</title>
+    <link rel="stylesheet" href="/styles/styles-abas/styles-devs.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles-dropdown-sidebar.css" />
+</head>
+
+<body>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" id="btn-close">✕</button>
+        <ul>
+            <li><a href="notificacoes.html">Notificações</a></li>
+            <li><a href="/pages/dashboard.html">Dashboard</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="devs.html">Desenvolvedores</a></li>
+        </ul>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <header>
+        <button class="menu-btn" id="btn-menu">&#9776;</button>
+
+        <div class="profile-container">
+            <button class="profile-btn" id="btn-profile">
+                <img src="/images/utilidades/icone-usuario.png" alt="Ícone de Usuário" />
+            </button>
+            <ul class="profile-dropdown" id="dropdown">
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Desenvolvedores</h1>
+
+        <div class="dev-card">
+            <div class="dev-avatar">
+                <img src="/images/imagens-devs/lucasgrillo.png" alt="Lucas Grillo Alcântara">
+            </div>
+            <div class="dev-info">
+                <p class="dev-name">Lucas Grillo Alcântara</p>
+                <p>RM: 561413 - 1TDSPX</p>
+            </div>
+            <div class="dev-actions">
+                <a href="https://www.linkedin.com/in/lgaxd/" target="_blank" class="btn-linkedin">LinkedIn</a>
+                <a href="https://github.com/lgaxd" target="_blank" class="btn-github">GitHub</a>
+            </div>
+        </div>
+
+        <div class="dev-card">
+            <div class="dev-avatar">
+                <img src="/images/imagens-devs/augusto.jpg" alt="Augusto Buguas Rodrigues">
+            </div>
+            <div class="dev-info">
+                <p class="dev-name">Augusto Buguas Rodrigues</p>
+                <p>RM: 563858 - 1TDSPX</p>
+            </div>
+            <div class="dev-actions">
+                <a href="https://www.linkedin.com/in/augusto-buguas-154308280/" target="_blank"
+                    class="btn-linkedin">LinkedIn</a>
+                <a href="https://github.com/augustofiap" target="_blank" class="btn-github">GitHub</a>
+            </div>
+        </div>
+
+        <div class="dev-card">
+            <div class="dev-avatar">
+                <img src="/images/imagens-devs/pedro.png" alt="Pedro Luís Fachini">
+            </div>
+            <div class="dev-info">
+                <p class="dev-name">Pedro Luís Fachini</p>
+                <p>RM: 565889 - 1TDSPX</p>
+            </div>
+            <div class="dev-actions">
+                <a href="https://linkedin.com/in/pedrofachini" target="_blank" class="btn-linkedin">LinkedIn</a>
+                <a href="https://github.com/pedrofachini" target="_blank" class="btn-github">GitHub</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="/scripts/script-sidebar.js"></script>
+    <script src="/scripts/script-dropdown.js"></script>
+    <script src="/scripts/script-watson.js"></script>
+
+</body>
+
+</html>

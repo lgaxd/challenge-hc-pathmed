@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>HC Telemedicina - Contato</title>
+    <link rel="stylesheet" href="/styles/styles-abas/styles-contato.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles-dropdown-sidebar.css" />
+</head>
+
+<body>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" id="btn-close">✕</button>
+        <ul>
+            <li><a href="notificacoes.html">Notificações</a></li>
+            <li><a href="/pages/dashboard.html">Dashboard</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="devs.html">Desenvolvedores</a></li>
+        </ul>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <header>
+        <button class="menu-btn" id="btn-menu">&#9776;</button>
+
+        <div class="profile-container">
+            <button class="profile-btn" id="btn-profile">
+                <img src="/images/utilidades/icone-usuario.png" alt="Ícone de Usuário" />
+            </button>
+            <ul class="profile-dropdown" id="dropdown">
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Contato</h1>
+        <p class="subtitle">Envie sua mensagem!</p>
+
+        <form id="form-contato" novalidate>
+            <div class="form-group">
+                <input type="text" id="nome" placeholder="Nome completo*" required />
+                <div id="error-nome" class="error"></div>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="E-mail*" required />
+                <div id="error-email" class="error"></div>
+            </div>
+            <div class="form-group">
+                <input type="text" id="assunto" placeholder="Tema da conversa" />
+            </div>
+            <div class="form-group">
+                <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+    </main>
+
+    <script src="/scripts/scripts-abas/script-contato.js"></script>
+    <script src="/scripts/script-dropdown.js"></script>
+    <script src="/scripts/script-sidebar.js"></script>
+    <script src="/scripts/script-watson.js"></script>
+
+</body>
+
+</html>

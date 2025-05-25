@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>HC Telemedicina — Login</title>
+    <link rel="stylesheet" href="/styles/styles-inicio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="login-container">
+        <img src="/images/logos/logo-80anos.png" alt="80 anos FMUSP" class="logo" />
+        <h1>Insira seus dados</h1>
+        <div class="input-group">
+            <div class="input-wrapper">
+                <input id="cpf" type="password" placeholder="Digite seu CPF" />
+                <button class="toggle-visibility" data-target="cpf">
+                    <img src="/images/utilidades/icon-visibilidade.png" alt="Visibilidade habilitada" />
+                </button>
+            </div>
+            <div id="cpf-error" class="error"></div>
+        </div>
+        <div class="input-group">
+            <div class="input-wrapper">
+                <input id="rghc" type="password" placeholder="Digite seu RGHC" />
+                <button class="toggle-visibility" data-target="rghc">
+                    <img class="btn-visibilidade-ativa" src="/images/utilidades/icon-visibilidade.png"
+                        alt="Visibilidade habilitada" />
+                </button>
+            </div>
+            <div id="rghc-error" class="error"></div>
+        </div>
+        <button class="btn-consultar">CONSULTAR ACESSO</button>
+        <button id="btn-entrar" class="btn-entrar">Entrar</button>
+    </div>
+    <script src="/scripts/script-login.js"></script>
+</body>
+
+</html>

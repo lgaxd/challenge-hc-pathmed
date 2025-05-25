@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>HC Telemedicina - FAQ Interativo</title>
+    <link rel="stylesheet" href="/styles/styles-abas/styles-faq.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles-dropdown-sidebar.css" />
+</head>
+
+<body>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" id="btn-close">✕</button>
+        <ul>
+            <li><a href="notificacoes.html">Notificações</a></li>
+            <li><a href="/pages/dashboard.html">Dashboard</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="devs.html">Desenvolvedores</a></li>
+        </ul>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <header>
+        <button class="menu-btn" id="btn-menu">&#9776;</button>
+
+        <div class="profile-container">
+            <button class="profile-btn" id="btn-profile">
+                <img src="/images/utilidades/icone-usuario.png" alt="Ícone de Usuário" />
+            </button>
+            <ul class="profile-dropdown" id="dropdown">
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Dúvidas Frequentes</h1>
+
+        <h2 class="section-title">Teleconsulta</h2>
+        <div class="faq-item">
+            <div class="faq-question">Como faço para acessar minha consulta?</div>
+            <div class="faq-answer">Para acessar sua consulta, clique no link enviado por WhatsApp ou e-mail e faça
+                login com seu CPF e RGHC. Em seguida, permita o uso de câmera e microfone quando solicitado pelo
+                navegador.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Como eu faço para aparecer minha câmera?</div>
+            <div class="faq-answer">Após entrar na sala de consulta, clique no ícone de câmera no canto inferior da tela
+                e verifique se selecionou a câmera correta nas configurações do navegador. Se ainda não funcionar,
+                recarregue a página e tente novamente.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Onde eu clico para ver as informações da minha consulta?</div>
+            <div class="faq-answer">Na tela principal, toque no card “Consulta de hoje” para visualizar detalhes como
+                nome do médico, data, horário e instruções específicas para o atendimento.</div>
+        </div>
+
+        <h2 class="section-title">Suporte</h2>
+        <div class="faq-item">
+            <div class="faq-question">Onde posso fazer perguntas sobre minha consulta?</div>
+            <div class="faq-answer">Você pode usar o chatbot de suporte no menu lateral ou abrir um chamado diretamente
+                pela opção “Chatbot de Suporte” para falar com um atendente humano.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Eu consigo ver com que médico vai ser minha próxima consulta?</div>
+            <div class="faq-answer">Sim, basta acessar o card “Próximas consultas” na tela principal. Cada item exibirá
+                o nome do profissional, data e horário agendados.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Como enviar áudio na conversa?</div>
+            <div class="faq-answer">No chat, toque no ícone de microfone ao lado do campo de texto. Segure o botão para
+                gravar e solte para enviar. Certifique-se de ter liberado permissão de microfone no navegador ou
+                aplicativo.</div>
+        </div>
+    </main>
+
+    <script src="/scripts/scripts-abas/script-faq.js"></script>
+    <script src="/scripts/script-sidebar.js"></script>
+    <script src="/scripts/script-dropdown.js"></script>
+    <script src="/scripts/script-watson.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+document.getElementById('btn-prev').addEventListener('click', () => {
+    window.location.href = 'etapa02.html';
+});
+document.getElementById('btn-next').addEventListener('click', () => {
+    window.location.href = 'etapa04.html';
+});

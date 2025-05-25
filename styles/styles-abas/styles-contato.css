@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    background: #f5f7fa;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+}
+
+.menu-btn,
+.profile-btn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #0071bc;
+    display: flex;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    margin-top: .5rem;
+}
+
+h1.page-title {
+    font-size: 1.4rem;
+    color: #0071bc;
+    margin-bottom: 0.5rem;
+}
+
+p.subtitle {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: .75rem 1rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.error {
+    color: #c00;
+    font-size: .85rem;
+    margin-top: .25rem;
+    min-height: 1.2em;
+}
+
+.btn-submit {
+    align-self: flex-end;
+    padding: .75rem 1.5rem;
+    background: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #999;
+}
