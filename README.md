@@ -29,8 +29,8 @@ Objetivo: Facilitar o acesso e a experiência de telemedicina para públicos com
 - Icone de Chatbot: em vez de aba dedicada, implementado ícone de chatbot no header para disparar a interface de suporte em qualquer tela.
 
 ## Equipe
-Lucas Grillo Alcântara (RM 561413) - Front-End & UX
+Lucas Grillo Alcântara (RM 561413)
 
-Augusto Buguas Rodrigues (RM 563858) - Integrações e lógica JS
+Augusto Buguas Rodrigues (RM 563858)
 
-Pedro Luís Fachini (RM 565889) - Documentação & Acessibilidade
+Pedro Luís Fachini (RM 565889)
